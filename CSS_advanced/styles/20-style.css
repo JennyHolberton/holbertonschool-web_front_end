@@ -538,7 +538,7 @@ ul.row {
   text-align: right;
 }
 
-.row::after:empty {
+.row::after {
   display: table;
   clear: both;
 }
