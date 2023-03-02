@@ -411,7 +411,8 @@ a:active {
 
 .container {
     width: 960px;
-    margin: auto;
+    margin-left: 50%;
+    margin-right: 50%;
 }
 
 h1, h2, h3, h4, h5, h6 {
