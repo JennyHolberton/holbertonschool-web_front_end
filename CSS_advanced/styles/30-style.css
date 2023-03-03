@@ -649,7 +649,7 @@ ul.row {
 .card-work .card-image img{
   height: 30rem;
   width: 100%;
-  --object-fit: cover;
+  object-fit: cover;
   vertical-align: bottom;
 }
 
@@ -688,7 +688,7 @@ ul.row {
   content: ""
 }
 
-.card-work .card-title:hover {
+.card-work:hover .card-title {
   opacity: 1;
 }
 
