@@ -394,7 +394,7 @@ a:active {
 .button:hover {
   color: var(--button-hover-color) var(--transition-duration);
   text-decoration: var(--button-hover-text-decoration);
-  background: var(--button-hover-background) var(--transition-duration);
+  transition-property: var(--button-color);
   transition-duration: var(--transition-duration);
 }
 
